@@ -25,7 +25,7 @@ $(document).ready(function() {
 	            }
 	            if(json.company_nameMessage == '' && json.nameMessage == '' && json.emailMessage == '') {
 	                $('.order-samples form').fadeOut('slow', function() {
-	                    $('.form-msc').append(' <h1 class = "heading display-3">Thank you!</h1> <h5 class = "heading">Your information is received by our representative. We will be in contact with you shortly.</h5>');
+	                    $('.form-msc').append('<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12"><h1 class = "heading display-3">Thank you!</h1> <h5 class = "heading">Your information is received by our representative. We will be in contact with you shortly.</h5></div>');
 	                });
 	            }
 	        }
@@ -60,7 +60,7 @@ $(document).ready(function() {
 	            }
 	            if(json.company_nameMessage == '' && json.nameMessage == '' && json.emailMessage == '') {
 	                $('.become-partner form').fadeOut('slow', function() {
-	                    $('.form-msc').append(' <h1 class = "heading display-3">Thank you!</h1> <h5 class = "heading">Your information is received by our representative. We will be in contact with you shortly.</h5>');
+	                    $('.form-msc').append('<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12"> <h1 class = "heading display-3">Thank you!</h1> <h5 class = "heading">Your information is received by our representative. We will be in contact with you shortly.</h5></div>');
 	                });
 	            }
 	        }
