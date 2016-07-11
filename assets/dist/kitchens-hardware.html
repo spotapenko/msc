@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
+
+
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.list-button').on('click', function() {
+        $('.list-button').addClass('active');
+        $('.table-button').removeClass('active');
+        $('.finishes-list-view').fadeIn(800);
+        $('.finishes-table-view').fadeOut(400);
+      });
+      $('.table-button').on('click', function() {
+        $('.table-button').addClass('active');
+        $('.list-button').removeClass('active');
+        $('.finishes-table-view').fadeIn(800);
+        $('.finishes-list-view').fadeOut(400);
+      });
+
+    });
+
+    $(document).ready(function() {
+      $(".fancybox").fancybox({
+        padding: 0
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+
+  <!-- <nav class="navbar nav nav-inline">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            </div>
+            <a class="nav-link" href="#">Become a partner</a>
+            <a class="nav-link" href="#">Submit your kitchen plan</a>
+            <a class="nav-link" href="#">Order the samples</a>
+          </div>
+        </div>
+     </nav> -->
+
+  <div class="brand ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-8 col-sm-8">
+          <img class="hidden-xs-down " src="assets/img/brand.svg" alt="" />
+          <img class="hidden-sm-up " src="assets/img/brand_xs.svg" alt="" />
+        </div>
+        <div class="col-lg-4 col-md-3 hidden-md-down">
+          <h6><a href="tel:+79883617288">tel. 646 374 4062</a></h6>
+          <h6><a href="mailto:info@modernstylecabinets.com">info@modernstylecabinets.com</a></h6>
+          <h6><a href="https://goo.gl/maps/768dzYNA7GE2" target="_blank">1121 Mearns Rd <span class="icon-dot"></span>Warminster<span class="icon-dot"></span> PA 189y74</a></h6>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs-down">
+          <h6>Showroom Hours:</h6>
+          <h6>Mon - Fri: 9 a.m. - 6 p.m.</h6>
+          <h6>Sat - Sun: closed</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-dark justified ">
+    <div class="container">
+      <div class="row">
+        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+             &#9776;
+           </button>
+        <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+          <ul class="nav navbar-nav menu ">
+            <li class="nav-item">
+              <a class="nav-link button-line" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link button-line--active" href="kitchens-finishes.html">KITCHENS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button-line" href="vanities.html">VANITIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button-line" href="lightning.html">LIGHTNING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button-line" href="contacts.html">CONTACTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button-line" href="about-us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button-line" href="locate-dealer.html">LOCATE A DEALER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="dresstool">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <a href="kitchen-dressup-tool.html"><img class="img-fluid" src="assets/img/banner.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="crumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ol class="breadcrumb" style="margin-bottom: 5px;">
+            <div class="flag">
+              <img src="assets/img/flag.svg" alt="" />
+            </div>
+            <li class="active"><a href="kitchens-finishes.html">KITCHENS</a></li>
+            <li><a href="kitchens-hardware.html">HARDWARE</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="catalogue">
+    <div class="container">
+      <div class="bcgr">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-light justified">
+              <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                <ul class="nav navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link button-line" href="kitchens-finishes.html">FINISHES <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link button-line" href="kitchens-cabinets.html">CABINETS</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link button-line--active" href="kitchens-hardware.html">HARDWARE</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-options">
+        <div class="row subcategory">
+          <div class="col-lg-6">
+            <h2 class="heading">KITCHEN HARDWARE</h2>
+          </div>
+          <div class="col-lg-6 view-buttons">
+            <button class="table-button active" type="button" name="button"></button>
+            <button class="list-button" type="button" name="button"></button>
+          </div>
+        </div>
+
+        <!--  LIST VIEW-->
+
+        <div class="row finishes-list-view">
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/180d_door_lift.png" title="180 Degree Door Lift"><img class="img-fluid" src="assets/img/hardware/180d_door_lift.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">180 Degree Door Lift</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/door_stay.png" title="Door Stay"><img class="img-fluid" src="assets/img/hardware/door_stay.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Door Stay</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/draining_rack.png" title="Draining Rack"><img class="img-fluid" src="assets/img/hardware/draining_rack.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Draining Rack</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/pull_out_basket.png" title="Pull Out Basket"><img class="img-fluid" src="assets/img/hardware/pull_out_basket.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Pull Out Basket</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/bread_basket.png" title="Bread Basket"><img class="img-fluid" src="assets/img/hardware/bread_basket.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Bread Basket</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/magic_corner.png" title="Magic Corner Unit"><img class="img-fluid" src="assets/img/hardware/magic_corner.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Magic Corner Unit</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/sink_pull_out_basket.png" title="Sink Pull Out Basket"><img class="img-fluid" src="assets/img/hardware/sink_pull_out_basket.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Sink Pull Out Basket</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/pull_out_magic_corner_unit.png" title="Pull Out Magic Corner Unit"><img class="img-fluid" src="assets/img/hardware/pull_out_magic_corner_unit.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Pull Out Magic Corner Unit</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/side_basket.png" title="Side Basket"><img class="img-fluid" src="assets/img/hardware/side_basket.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Side Basket</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/swivel_basket.png" title="Swivel Basket"><img class="img-fluid" src="assets/img/hardware/swivel_basket.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Swivel Basket</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/tall_unit.png" title="Tall Unit"><img class="img-fluid" src="assets/img/hardware/tall_unit.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Tall Unit</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+          <div class="finishes-list-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="finishes-image col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <a class="fancybox" rel="hardware" href="assets/img/hardware/trash_can.png" title="Trash Can"><img class="img-fluid" src="assets/img/hardware/trash_can.png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <h4 class="finishes-name">Trash Can</h4>
+              <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <!-- TABLE VIEW -->
+
+        <div class="row finishes-table-view">
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/180d_door_lift.png" title="180 Degree Door Lift"><img class="img-fluid" src="assets/img/hardware/180d_door_lift.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">180 Degree Door Lift</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/door_stay.png" title="Door Stay"><img class="img-fluid" src="assets/img/hardware/door_stay.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Door Stay</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/draining_rack.png" title="Draining Rack"><img class="img-fluid" src="assets/img/hardware/draining_rack.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Draining Rack</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/pull_out_basket.png" title="Pull Out Basket"><img class="img-fluid" src="assets/img/hardware/pull_out_basket.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Pull Out Basket</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/bread_basket.png" title="Bread Basket"><img class="img-fluid" src="assets/img/hardware/bread_basket.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Bread Basket</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/magic_corner.png" title="Magic Corner Unit"><img class="img-fluid" src="assets/img/hardware/magic_corner.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Magic Corner Unit</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/sink_pull_out_basket.png" title="Sink Pull Out Basket"><img class="img-fluid" src="assets/img/hardware/sink_pull_out_basket.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Sink Pull Out Basket</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/pull_out_magic_corner_unit.png" title="Pull Out Magic Corner Unit"><img class="img-fluid" src="assets/img/hardware/pull_out_magic_corner_unit.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Pull Out Magic Corner Unit</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/side_basket.png" title="Side Basket"><img class="img-fluid" src="assets/img/hardware/side_basket.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Side Basket</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/swivel_basket.png" title="Swivel Basket"><img class="img-fluid" src="assets/img/hardware/swivel_basket.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Swivel Basket</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/tall_unit.png" title="Tall Unit"><img class="img-fluid" src="assets/img/hardware/tall_unit.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Tall Unit</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="finishes-table-item col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="finishes-image">
+                <a class="fancybox" rel="hardware" href="assets/img/hardware/trash_can.png" title="Trash Can"><img class="img-fluid" src="assets/img/hardware/trash_can.png" alt="" /></a>
+              </div>
+              <h4 class="finishes-name">Trash Can</h4>
+              <div class="finishes-info">
+                <button class="btn btn-wish icon-wish">Add to Wishlist</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- END OF THE table VIEW -->
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <section class="call-to-action">
+    <div class="container">
+      <div class="links">
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-2 col-md-4 col-md-offset-0 col-xs-12">
+            <h2 class="heading">Order the<br>Samples</h2>
+            <h6>and get full refund <br> with your next order</h6>
+          </div>
+          <div class="col-lg-3  col-md-4 col-xs-12">
+            <h2 class="heading">Submit Your<br>Kitchen Plan</h2>
+            <h6>for quotation</h6>
+          </div>
+          <div class="col-lg-3  col-md-4 col-xs-12">
+            <h2 class="heading">Become a <br>Partner</h2>
+            <h6>to get full access <br> to our pricing</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bottom-nav hidden-sm-down justified">
+    <div class="container">
+      <div class="row">
+        <nav class="nav navbar-nav">
+          <li><a class="nav-link" href="index.html">HOME</a></li>
+          <li><a class="nav-link" href="kitchens-finishes.html">KITCHENS</a></li>
+          <li><a class="nav-link" href="vanities.html">VANITIES</a></li>
+          <li><a class="nav-link" href="lightning.html">LIGHNING</a></li>
+          <li><a class="nav-link" href="#">CONTACT US</a></li>
+          <li><a class="nav-link" href="#">LOCATE A DEALER</a></li>
+
+          <li><a class="nav-link highlight" href="#">ORDER SAMPLES</a></li>
+          <li><a class="nav-link highlight" href="#">BECOME OUR PARTNER</a></li>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom-brand">
+    <div class="container">
+      <div class="row">
+        <div class=" col-xl-5 col-lg-5 col-md-12 col-sm-12 col-sm-12 ">
+          <img class="hidden-xs-down " src="assets/img/brand_bottom.svg" alt="" />
+          <img class="hidden-sm-up " src="assets/img/brand_bottom_xs.svg" alt="" />
+        </div>
+        <div class="col-xl-3 col-xl-offset-0 col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-2">
+          <h6>1121 Mearns Rd</h6>
+          <h6>Warminster, PA 18974</h6>
+        </div>
+        <div class="col-xl-3 col-xl-offset-0 col-lg-4 col-lg-offset-0  col-md-4  col-md-offset-0 col-sm-offset-0 col-sm-5 col-xs-10 col-xs-offset-2">
+          <h6>tel. 646 374 4062</h6>
+          <h6>info@modernstylecabinets.com</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>Copyright MSC Ltd. Corp, 2016</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js">
+  </script>
+</body>
+
+</html>
